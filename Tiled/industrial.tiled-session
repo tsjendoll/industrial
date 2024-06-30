@@ -1,0 +1,84 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "level1.tmx",
+    "expandedProjectPaths": [
+    ],
+    "fileStates": {
+        "Tilessets/Background.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Tilessets/Collidables.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 2,
+            "scaleInEditor": 1
+        },
+        "Tilessets/Decoration.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Tilessets/PowerLines.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Tilessets/PowerStation.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 0.25,
+            "scaleInEditor": 0.33
+        },
+        "Tilessets/Punk.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 8
+        },
+        "Tilessets/Tubes.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "level1.tmx": {
+            "scale": 0.25,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 3484,
+                "y": 940
+            }
+        }
+    },
+    "last.exportedFilePath": "C:/Users/Jenny/CS50G0/industrial/levelData",
+    "last.imagePath": "C:/Users/Jenny/Tilesets/Industrial/Free 3 Cyberpunk Sprites Pixel Art/2 Punk",
+    "map.lastUsedExportFilter": "CSV files (*.csv)",
+    "map.lastUsedFormat": "tmx",
+    "openFiles": [
+        "level1.tmx",
+        "Tilessets/Tubes.tsx",
+        "Tilessets/Decoration.tsx",
+        "Tilessets/PowerLines.tsx",
+        "Tilessets/Background.tsx",
+        "Tilessets/Collidables.tsx",
+        "Tilessets/Punk.tsx"
+    ],
+    "project": "industrial.tiled-project",
+    "recentFiles": [
+        "Tilessets/Punk.tsx",
+        "Tilessets/Collidables.tsx",
+        "Tilessets/Background.tsx",
+        "Tilessets/PowerLines.tsx",
+        "Tilessets/Decoration.tsx",
+        "Tilessets/Tubes.tsx",
+        "level1.tmx",
+        "Tilessets/PowerStation.tsx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 48,
+        "width": 48
+    },
+    "tileset.type": 0
+}
