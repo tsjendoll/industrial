@@ -12,7 +12,9 @@ function love.load()
     push:setupScreen(VIRTUAL_WIDTH, VIRTUAL_HEIGHT, WINDOW_WIDTH, WINDOW_HEIGHT, {
         fullscreen = false,
         vsync = true,
-        resizable = true
+        resizable = true,
+        canvas = false,  -- Set to false to fill the screen without black bars
+        stretched = true -- Enable stretching to fill the window
     })
 
     gStateMachine = StateMachine {

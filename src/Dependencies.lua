@@ -15,12 +15,18 @@ require 'src/Util'
 require 'src/states/BaseState'
 require 'src/states/game/PlayState'
 
+require 'src/world/Background'
 require 'src/world/GameLevel'
 require 'src/world/LevelMaker'
 
 tilesets = {
-    ['tiles'] = importFolder('graphics/Power-Station-Free-Tileset-Pixel-Art/1 Tiles'),
-    ['decorations'] = importFolder('graphics/Power-Station-Free-Tileset-Pixel-Art/3 Objects/2 Decoration'),
-    ['tubes'] = importFolder('graphics/Power-Station-Free-Tileset-Pixel-Art/3 Objects/1 Tube'),
-    ['powerlines'] = importFolder('graphics/Power-Station-Free-Tileset-Pixel-Art/3 Objects/3 Power lines')
+    ['tiles'] = importFolder('graphics/PowerStation/1 Tiles'),
+    ['decorations'] = importFolder('graphics/PowerStation/3 Objects/2 Decoration'),
+    ['tubes'] = importFolder('graphics/PowerStation/3 Objects/1 Tube'),
+    ['powerlines'] = importFolder('graphics/PowerStation/3 Objects/3 Power lines')
+}
+
+backgrounds = {
+    ['day'] = importFolder('graphics/PowerStation/2 Background/Day'),
+    ['overlay'] = love.graphics.newImage('graphics/PowerStation/2 Background/Overlay.png')
 }

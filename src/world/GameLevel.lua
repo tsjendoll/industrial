@@ -11,6 +11,8 @@ function GameLevel:init(entities, objects, tileMap)
     self.entities = entities
     self.objects = objects
     self.tileMaps = tileMap
+    self.width = #tileMap[1].tiles[1] * TILE_SIZE
+    self.height =  #tileMap[1].tiles * TILE_SIZE
 end
 
 --[[

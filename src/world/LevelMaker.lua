@@ -25,11 +25,6 @@ function LevelMaker:generateLevel(levelToGenerate)
 
     end
     
-   
-   
-
-    
-
     return GameLevel(nil, nil, tileMaps)
 end
 
